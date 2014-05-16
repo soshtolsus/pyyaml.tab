@@ -1,4 +1,25 @@
-PyYAML - The next generation YAML parser and emitter for Python.
+PyYAML.TAB - The next generation YAML parser and emitter for Python,
+	TAB edition: Tabs Ain't Bad
+
+The defining feature of this parser/emitter is that it solely uses
+tabs for indentation. The discussion of whether to use tabs or spaces,
+or to allow mixed tabs and spaces, for indentation is insane. There are
+several reasons tabs are the natural choice for indentation:
+* Indentation is precisely what they are good for, and the only thing
+they are good for.
+* Only a single character need be used, rather than an unknown and variable
+number. This simplifies editing, parsing, and emission. For the latter
+two points, see the diff for proof.
+* While a tab is only a single character, it can be displayed differently
+according to one's preferenecs, without affecting how others see it.
+* Being a single character, it is atomic: it is either present or not,
+with no intermediate state possible.
+
+**NOTE**: This does not conform to the YAML spec, of any version.
+It is mostly a proof of concept to show that it isn't tabs that
+are evil, it is space-indentation, mixed-character indentation,
+and the concept that a tab is merely a shortcut fora number of spaces
+is the true evil.
 
 To install, type 'python setup.py install'.
 
