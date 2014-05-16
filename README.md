@@ -53,6 +53,7 @@ http://lists.sourceforge.net/lists/listinfo/yaml-core.
 Submit bug reports and feature requests to the PyYAML bug tracker:
 http://pyyaml.org/newticket?component=pyyaml.
 
-PyYAML is written by Kirill Simonov <xi@resolvent.net>.  It is released
-under the MIT license. See the file LICENSE for more details.
+PyYAML is written by Kirill Simonov <xi@resolvent.net>. The TAB variant
+is written by soshtolsus <qdchzrucvfmv.code.kuav@gmail.com>. It is
+released under the MIT license. See the file LICENSE for more details.
 
